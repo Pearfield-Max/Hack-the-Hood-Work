@@ -16,4 +16,8 @@ used_python = False
 hobbies = ["drawing", "playing games", "reading manga","watching anime",]
 
 ## step 6
-favorite_things = {"movie":"Scott Pilgrim vs the World", "game": "Mario and Zelda", "animal": "cat", "Dog","red panda"}
+thisdict = {"movie": "Scott Pilgrim vs the World",
+"game": "Mario and Zelda",
+"animal": "cat, dog, and red panda"}
+print(thisdict)
+

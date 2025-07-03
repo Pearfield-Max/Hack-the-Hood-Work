@@ -21,9 +21,9 @@ for x in list1:
         print("value is zero")
 
         
-invetory = ["drink, food, grass, glass, dirt"]
+invetory = ["coal," "dirt", "diamond", "gravel", "stone"]
+for item in invetory:
+    print("stone")
 for i in invetory:
-    if i == "waxed lightly weathered chiseled copper stairs":
-        print("why do you have this in your invetory")
-    elif i == "food":
-         print("food")
+    if i == "diamond":
+        print("Jackpot!")

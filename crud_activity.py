@@ -6,20 +6,21 @@ def create(recipe):
 def read(index):
     cookbook(index)
     if index in range(len(cookbook)):
-        return cookbook[index]
+         print (cookbook[index])
+        return (cookbook[index])
+        
 
 def update(index, recipe):
     if index in range(len(cookbook)):
-     print(f"{indext, recipe} recipe has been updated")
+     print(f"{index, recipe} recipe has been updated")
 
 def destroy(index):
-    cookbook.remove(index)
+    cookbook.pop(index)
     if index in range(len(cookbook)):
-        print(f"{recipe} recipe has been removed")
+        print(f"{cookbook[index]} recipe has been removed")
 
 def list_all_recipes( ):
-    cookbook.sort(recipe)
-    for i in cookbook(recipe):
+    for i in cookbook:
         print(i)
 
 def main():
